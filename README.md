@@ -1,2 +1,2 @@
 ### Test task for GlobexIT
-run NPM START for start server
+run NPM I then NPM START for start server
