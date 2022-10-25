@@ -1,0 +1,157 @@
+.main_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 1175px;
+  margin: 0 auto;
+}
+
+.search__button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 8px;
+  right: 13px;
+  transition: transform 0.4s;
+}
+
+.search__button:hover {
+  cursor: pointer;
+  transform: scale(0.7);
+}
+
+.search__button img {
+  max-width: 100%;
+  display: block;
+}
+
+.main_section__search {
+  margin: 55px 0 35px 0;
+  position: relative;
+  min-width: 1175px;
+  width: 1175px;
+}
+
+.search {
+  width: 100%;
+  height: 45px;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  padding-left: 15px;
+}
+
+.main-content__card,
+.main-content__search {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card__container {
+  margin: 10px 15px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+  height: 285px;
+  width: 350px;
+  padding-left: 25px;
+  transition: box-shadow 0.3s;
+}
+
+.card__container:hover {
+  cursor: pointer;
+  box-shadow: 4px 5px 5px grey;
+}
+
+.item {
+  color: #be62d5;
+}
+
+.card {
+  margin: 30px 0 0 0;
+}
+
+.card__contact {
+  margin-top: 50px;
+}
+
+.card__name {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.card__tel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card__tel-icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.card__tel-icon img {
+  height: 100%;
+}
+
+.card__email {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.card__email-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+
+.card__email-icon img {
+  width: 100%;
+}
+
+.fields-field {
+  height: 170px;
+  padding-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 500;
+  width: 100%;
+}
+
+.fields-field div {
+  display: flex;
+}
+
+.tag {
+  flex: 0 0 45%;
+}
+
+.value {
+  word-wrap: break-word;
+  text-align: start;
+}
+
+.popup__data-other__info {
+  padding-bottom: 40px;
+}
+
+.other__info-header {
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 14px;
+  color: #666;
+}
+
+.hide {
+  display: none;
+}

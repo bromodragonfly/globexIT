@@ -1,0 +1,53 @@
+/* POPUP */
+.popup__container-card {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(240, 248, 255, 0.6);
+}
+
+.card__popup {
+  height: 460px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+  top: 125px;
+}
+
+.popup__data {
+  width: 525px;
+  padding: 50px 25px 45px 25px;
+}
+
+.popup__data-close {
+  z-index: 1000;
+  position: relative;
+  top: 105px;
+  left: 292px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background-color: #be62d5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.close__btn {
+  color: #fff;
+}
+
+.popup__name {
+  font-size: 26px;
+  font-weight: 600;
+  color: black;
+}
+
+.popup__data-fields {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
